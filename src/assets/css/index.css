@@ -1,0 +1,71 @@
+body,
+html {
+  background-color: hsl(222, 14%, 15%);
+  color: #fff;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.App {
+  text-align: center;
+}
+.quiz-container {
+  text-align: center;
+  margin-top: 10vh;
+}
+.btn-choose {
+  font-size: 0.75rem;
+  padding: 15px 20px 15px 20px;
+  max-width: 450px;
+  min-width: 450px;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: hsl(222, 14%, 25%);
+  color: #fff;
+  border: 1px solid hsl(223, 14%, 13%);
+  box-shadow: 1px 1px 2px #111;
+  cursor: pointer;
+  outline-style: none;
+}
+.btn-choose:hover {
+  transition: 1s;
+  background-color: hsl(120, 100%, 20%);
+}
+.errors-list {
+  font-size: 0.8rem;
+  text-align: left;
+  max-width: 620px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid hsl(223, 14%, 13%);
+  background-color: hsl(223, 14%, 25%);
+  margin: auto;
+}
+.score-number {
+  background-color: hsl(223, 14%, 25%);
+  border: 2px solid hsl(222, 14%, 13%);
+  max-width: 140px;
+  padding: 15px;
+  margin: auto;
+}
+.logo {
+  width: 300px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.questions {
+  font-size: 0.8rem;
+}
+@media (max-width: 500px) {
+  .btn-choose {
+    max-width: 350px;
+    min-width: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .btn-choose {
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
