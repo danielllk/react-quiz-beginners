@@ -71,3 +71,8 @@ html {
     min-width: 300px;
   }
 }
+@media (max-width: 1200px) {
+  .btn-choose:hover {
+    background-color: hsl(222, 14%, 25%);
+  }
+}
