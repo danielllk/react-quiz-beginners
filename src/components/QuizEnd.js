@@ -17,7 +17,8 @@ const QuizEnd = (props) => {
           fontSize: "2rem",
         }}
       >
-        {score}0%
+        {score}
+        {score === 0 ? "" : "0"}%
       </h2>
       <p>
         {score === 10
